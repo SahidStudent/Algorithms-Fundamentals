@@ -8,8 +8,10 @@ int edad = 24;
 float estatura = 1.70;
 char* name = "Luis Gerardo";
 char sexo = 'M';
+int temp;
 
 int main(){
+    temp = 22;
     int after10years = suma(edad, 10);
     printf("mi edad despues de 10 años: %d", after10years);
     return 0;
